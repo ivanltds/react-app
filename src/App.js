@@ -1,5 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+
+//https://www.flaticon.com/br/icone-gratis/fantasma_1673576
+import logo from './ghost.svg';
+
 import './App.css';
 
 function App() {
@@ -8,7 +11,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          O site ainda esta <i>em desenvolvimento</i>,
+           mas em breve estara disponivel para 
+           você desfrutar de muito enterterimento
         </p>
         <a
           className="App-link"
@@ -16,8 +21,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Curta a pagina!
         </a>
+        <input  className='input' placeholder='digite seu email, para ser notificado!'/>
+        <a  className="App-link" href='https://www.freepik.com/photos/background'>Background photo created by rawpixel.com - www.freepik.com</a>
       </header>
     </div>
   );
